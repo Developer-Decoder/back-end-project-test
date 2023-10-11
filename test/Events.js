@@ -1,8 +1,8 @@
-const  eventEmitter =require("events")
-const Emitter=new eventEmitter()
+const  eventemitter =require("events")
+const emitter=new eventemitter()
 
-Emitter.on("log",(message)=>{
+emitter.on("log",(message)=>{
     console.log(message)
 })
 
-Emitter.emit('log','massage')
+emitter.emit('log','massage')
